@@ -1,0 +1,16 @@
+{
+  "name": "educonnect-platform",
+  "version": "1.0.0",
+  "description": "EduConnect — Student Dashboard and Real-Time Communication Platform",
+  "scripts": {
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "test": "node server/src/test-api.js",
+    "build:client": "npm run build --prefix client",
+    "install:all": "npm install --prefix server && npm install --prefix client"
+  },
+  "keywords": ["student-dashboard", "react", "socket.io", "mongodb", "express"],
+  "author": "Nandu Kumar",
+  "license": "MIT"
+}
